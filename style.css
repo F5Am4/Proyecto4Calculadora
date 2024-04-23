@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* DIV DE OPERACIONES */
+.calculadora {
+    background-color: rgb(226, 226, 226);
+    /* justify-content: center; */
+    margin: 100px;
+    padding: 40px;
+    border: solid gray 1px;
+    border-radius: 35px;
+    text-align: center;
+    width: 450px;
+}
+
+/* VENTANAS DE OPERACIONES */
+.visor{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+/* VENTANA DE RESULTADOS */
+.visorResult{
+    border-radius: 35px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*BOTONES OPERADORES BÁSICOS */
+.botonBasico button{
+    padding: 15px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+.botonBasico{
+    padding: 1px;
+}
+
+/* BOTONES PARA METODOS */
+.botonMetodo button{
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+/* BOTONES PARA REDONDEAR RESULTADOS */
+.botonesInferiores button{
+    margin: 5px;
+    font-size: 25px;
+    border-radius: 25px;
+}
