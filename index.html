@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- AQUI VA EL DIV PRINCIPAL DE LA CALCULADORA -->
+    <div class="calculadora">
+
+        <!-- Aquí van las ventanas de los operadores de la calculadora -->
+        <div class="ventanasOperador">
+            <input class="visor" type="text" id="numero1">
+            <input class="visor" type="text" id="numero2">
+       </div>
+
+       <!-- Aquí van los botones operadores básicos -->
+        <div class="botonBasico">
+         <button onclick="suma()">+</button>
+         <button onclick="resta()">-</button>
+         <button onclick="multiplicacion()">*</button>
+         <button onclick="division()">/</button><br>
+        </div>
+
+        <!-- Aquí van los operadores con método -->
+        <div class="botonMetodo">
+         <button onclick="raizCuadrada()">Raíz Cuadrada</button><!--sqrt-->
+         <button onclick="potenciar()">Potenciar</button><!--pow-->
+         <button onclick="valorAbsoluto()">Valor Absoluto</button><!--abs-->
+         <button onclick="aleatorio()">Aleatorio</button><br><!--random-->
+       </div>
+
+        <!-- Aquí va la ventana de resultados -->
+        <div class="visorResultado" > 
+            <br><input class="visorResult" type="text" id="resultados"><br>
+        </div>
+
+        <!-- Aquí van los operadores que redondean el resultado -->
+        <div class="botonesInferiores">
+            <button onclick="redondear()">Round</button><!--round-->
+            <button onclick="valorInferior()">Floor</button><!--floor-->
+            <button onclick="valorSuperior()">Ceil</button><!--ceil-->
+       </div>
+    </div>
+
+</body>
+</html>
